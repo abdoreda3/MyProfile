@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+   
+</head>
+<body >
+                  <!--nav bar-->
+
+  <nav class="navbar navbar-expand-lg m-0 p-0" >
+    <div id="header" class="container-fluid position-fixed mt-5 ">
+      <a id="title" class="navbar-brand col-6 " href="#">Abdo Reda</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"  id="ingredients">
+          <li  class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item"  >
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item " >
+            <a class="nav-link " href="#titlQ">Quotes</a>
+          </li>
+         
+          <li class="nav-item"  >
+            <a class="nav-link" href="#titl">Albums</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" href="#title4">About</a>
+          </li>
+       
+          <li class="nav-item dropdown " >
+            <a  class="nav-link dropdown-toggle "  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Change Color
+            </a>
+            <ul class="dropdown-menu bg bg-dark  "  id="dropdown" >
+            <li><a class="dropdown-item p-3" href="#"  id="headerbg">Header Bg</a></li>
+            <hr>
+            <li><a class="dropdown-item p-3" href="#"   id="titleco">Title Co</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item p-3" href="#" id="sectionbg"  >Section Bg</a></li>
+          </ul>
+          </li>
+          
+      
+      </div>
+   
+    </div>
+    
+  </nav>
+ 
+           <!--page description-->
+  <section  class="main">
+   
+  <div class="img-fluid">
+    
+  </div>
+  
+    <div class="container">
+      
+      <h1  id="title2" >HELLO, My Name Is</h1>
+        <span > Abdo Reda</span>
+  <h3  id= "mydes"></h3>
+ 
+<button class="btn1 ">view my work</button>
+
+               <!--socail icons-->
+<div class="icons ">
+  <a href="#"><i class="fa-brands fa-github"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  <a href="#"><i class="fa-brands fa-telegram"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+</div>
+</div>
+</section>
+
+
+         <!--Projects-->
+        
+
+            <!--section albums-->
+
+<div class="position-relative">
+  <div id="titl" class="position-absolute top-0 start-50 translate-middle">Albums</div>
+<section class="albums" id="section">
+<div id="containeriframe" >
+  <iframe id="video" src="https://www.youtube.com/embed/Cbk980jV7Ao"
+   title="YouTube video player" 
+   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+  </div>
+  <button id="btn-random" class="btn btn-primary">
+    Random vadio
+  </button>
+</div>
+</section>
+                     <!--Quotes-->
+
+<div class="position-relative">
+  <div id="titlQ" class="position-absolute top-0 start-50 translate-middle">Quotes</div>
+<section id="section2" class="quotes">
+<div  id="blockquote">
+  <blockquote dir="rtl" lang="ar" id="sidekick" class="blockquote">
+    لا تيأس من الحياه ي صديقي اجعلها تيأس منك &#9994;&#9994; 
+  
+   
+  </div>
+  <button id="btn-Quote" class="btn btn-primary">Random Quote</button>
+</section>
+
+                        <!--About-->
+
+<div class="position-relative">
+  <div id="title4" class="position-absolute top-0 start-50 translate-middle">Let's Work Together</div>
+<section id="section3">
+
+  <div class="card" >
+    <div class="card-body">
+      <i class="fas fa-phone"></i>
+      <h5 class="card-title">Phone</h5>
+      <p class="num1">01501537449</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <div class="card-body" id="email">
+      <i class="fas fa-envelope"></i>    
+      <h5 class="card-title">Email</h5>
+      <p class="card-text">abdoreda2060@gmail.com</p>
+    </div>
+  </div>
+</section>
+
+  <script src="main.js"></script>
+</body>
+</html>
